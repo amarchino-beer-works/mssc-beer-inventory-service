@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    username: beer_inventory_service
+    password: password
+    url: "jdbc:mysql://127.0.0.1:3306/beerinventoryservice?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC"
+  jpa:
+    database: mysql
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.MySQL8Dialect
