@@ -15,6 +15,10 @@
   <description>MSSC Beer Inventory Service</description>
 
   <dependencies>
+    <dependency>
+      <groupId>amarchino.beer.works</groupId>
+      <artifactId>mssc-beer-lib</artifactId>
+    </dependency>
   </dependencies>
 
 </project>
